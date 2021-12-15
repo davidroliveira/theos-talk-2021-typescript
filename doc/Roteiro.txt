@@ -1,0 +1,46 @@
+* Quem sou eu David?
+ - 
+ 
+* Java em todos os lugares: 
+  - Antes todo mundo dizia que JAVA vai dominar o mundo. Vai ser java em tudo o que é canto. Vai ter java na geladeira, no microondas, no back, no front. 
+  - Então fizeram varias tentativas para estar colocando em todos os lugares, ja que a ideia dele (do java), quando ele foi desenvolvido, era para estar em todas as plataformas em todos os lugares.
+  - Até que acertaram, de certa forma, só esqueceram do SCRIPT, e na realidade hoje, o javascript realmente esta em todos os lugares
+  - Agente pode estar trabalhando com IONIC (framework open source para desenvolvimento de aplicativos móveis) para estar trabalhando e desenvolvendo com nossos aplicativos mobile com javascript/typescript
+  - Agente pode estar trabalhando com IOT (framework for the Internet of Things) para estar trabalhando com arduino e javascript/typescript
+  - No Back-end com Nodejs (ou Deno)
+  - Então podemos estar trabalhando com javascript de fato em todas as plataformas e em todos os lugares.
+
+* O que é?
+ - Superset -> Conjunto de funcionalidades que encapsulam o javascript, mas escreve o javascript de uma forma mais bonita.
+ - Desenvolvido pela Microsoft TypeScript é um superconjunto (superset) de JavaScript que possui tipagem opcional e compila para JavaScript.
+ - TypeScript esta entre as top 3 como linguagem “mais amada” considerada pela comunidade, de acordo com uma pesquisa conduzida pelo site Stack Overflow desde i ano do seu lançamento. Rapidamente o TypeScript alcançou a 5ª posição de pull-request do GitHub para o terceiro trimestre de 2020, acima de C++, Ruby, PHP C# e C. 
+ - Sou obrigado a tipar tudo? Não é obrigado, pois, usamos o conceito de tipagem fraca e muitas tipagens do código podem ser resolvidas por Inferência de tipo, mas usar TypeScript e não usufruir dos tipos usando a opção não estrita (a não ser que esteja num processo de migração) é como trair sua namorada.
+ - Não vai substituir o javascript, mas vai tornar o codigo mais legivel e mais organizado (ref [Casa do Código] Lançamento do livro: Guia prático de TypeScript t=21:19) e é gerar um codigo javascript validado.
+  
+* Anders Hejlsberg
+ - O typescript foi desenvolvido pelo time do Anders Hejlsberg, Anders Hejlsberg, arquiteto da linguagem C# e criador das linguagens Delphi e Turbo Pascal, foi quem trabalhou no desenvolvimento do TypeScript. 
+ - Então que ja teve contato com C#, ou de uma linguagem tipadas, de orientação a objeto... ele aproveitou todos os conceitos de classes, de interfaces, de tipagem para agente estar podendo desenvolver com typescript
+ - No curso de "Introdução ao TypeScript" (https://youtu.be/eafDBaLHQCw t=1:47) do Microsoft MVP Thiago Adriano, arquiteto de software da TV Bandeirantes, que tem um backgroud em C#, e nos ultimos dois anos trabalhando forte na migração para typescript e angular, relatou que a migração foi "bem simples e bem tranquila".
+ 
+* Transpiling
+ - Toda linguagem possui uma convenção, é a convenção que diz o que a linguagem pode fazer e como ela faz.
+ - O javascript é baseado numa convenção chamada ECMAScript, a versão mais popular é a versão ECMAScript5, ela é popular porque todo browser entende.
+ - Se escrevermos em javascript utilizando os recursos do ECMAScript5, vc vai rodar tranquilamente no browser sem ter que fazer nenhum processo para gerar uma compilação e ai sim entregar a sua aplicação para rodar no browser
+ - então o que falamos o que falamos até agora é que voce pode utilizar javascript compativel com a versão ECMAScript5
+ - Outra versão popular é ECMAScript6 (tambem conhecida como ECMAScript 2015), falando ainda de javascript, mas com novas funcionalidades, essa versão ela da ainda mais poderes ao javascript, mas talvez haja a necessidade de transpilar o seu codigo, porque? porque muitos browsers trabalham bem com ECMAScript6, mas se clientes pegarmos versões mais antigas de defasadas ele não interprete o ECMAScript6 naturalmente.
+ - Então para que ele interprete a versão 6 do ECMAScript, vc tem que transpilar o seu codigo, ou seja, na hora de entregar o seu codigo escrito ECMAScript6, vc compila esse codigo e ele vai gerar um codigo javascript compativel com a versão do ECMAScript5, isso chamamos de transpilar.
+ - Transpilar é transformar uma coisa em outra compativel, bacana?
+ - Quando agente desenvolve com typescript (que é o queridão de todos) em nosso projeto tem um tsconfig.json e nele fica as configurações de qual é a versão do ECMAScript que os nossos arquivos transpilados serão gerados, diretorios de output, libs... e demais de transpilação do typescript.
+ - Não há demanda e nem processamento extra.
+ 
+* Deno
+ - Deno! O novo runtime JavaScript para o V8 engine chegou dividindo opiniões. Ryan Dahl, o mesmo criador do Node.js colocou a mão no código e trouxe o que prometeu, um runtime com tudo aquilo que ele se arrependia de ter feito no Node.js. O Typecript no Deno tem o FIRST-CLASS SUPPORT, ou seja, não precisa de um compilador a parte para o typescript, isso é feito automaticamente pelo próprio runtime.
+
+
+
+Referencias:
+ - [Casa do Código] Lançamento do livro: Guia prático de TypeScript (Alura Cursos https://www.youtube.com/watch?v=BpCqmQSbjEw)
+ - Aprendendo TypeScript do zero (Microsoft MVP Thiago da Silva Adriano https://youtu.be/eafDBaLHQCw)
+ - Desenvolvendo SPA com Angulas (Desenvolvedor.io MVP Eduardo Pires - Aula: Linguagens suportadas)
+ - Timeline of programming languages - Wiki (https://en.wikipedia.org/wiki/Timeline_of_programming_languages)
+ - TYPESCRIPT: THE GOOD PARTS (https://objectcomputing.com/resources/publications/sett/typescript-the-good-parts)

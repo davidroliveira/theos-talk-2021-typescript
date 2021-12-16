@@ -1,6 +1,6 @@
 {
    "type": "mssql",
-   "host": "HYDRA\\SQLSERVERTHEOS",
+   "host": "HYDRA.theos.local\\SQLSERVERTHEOS",
    "port": 1433,
    "username": "api",
    "password": "123",

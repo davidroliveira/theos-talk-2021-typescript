@@ -2,75 +2,75 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Typescript - gerando o javascript do futuro",
+      "nome": "mouse Microsoft",
       "valor": 15.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "Livro1.jpg"
+      "imagem": "mouse.jpg"
     },
     {
       "id": 2,
-      "nome": "TypeScript para iniciantes",
+      "nome": "Teclado Microsoft",
       "valor": 30.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "Livro2.jpg"
+      "imagem": "teclado.jpg"
     },
     {
       "id": 3,
-      "nome": "Guia prático de TypeScript",
+      "nome": "Monitor Samsung",
       "valor": 250.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "Livro3.jpg"
+      "imagem": "monitor.jpg"
     },
     {
       "id": 4,
-      "nome": "Pro Typescript",
-      "valor": 300.00,
+      "nome": "Laptop Asus",
+      "valor": 3000.00,
       "promocao": true,
-      "valorPromo": 199.00,
-      "imagem": "Livro4.jpg"
+      "valorPromo": 999.00,
+      "imagem": "laptop.jpg"
     },
     {
       "id": 5,
-      "nome": "Essential Typescript",
-      "valor": 100.00,
+      "nome": "Headset Microsoft",
+      "valor": 10.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "Livro5.jpg"
+      "imagem": "headset.jpg"
     },
     {
       "id": 6,
-      "nome": "Programming Typescript",
+      "nome": "Webcam Logitech",
       "valor": 90.00,
       "promocao": true,
       "valorPromo": 49.00,
-      "imagem": "Livro6.jpg"
+      "imagem": "webcam.jpg"
     },
     {
       "id": 7,
-      "nome": "JavaScript: O Guia Definitivo",
-      "valor": 300.00,
+      "nome": "Galaxy S10+",
+      "valor": 3000.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "Livro7.jpg"
+      "imagem": "celular.jpg"
     },
     {
       "id": 8,
-      "nome": "Effective Typescript",
-      "valor": 50.00,
+      "nome": "Mousepad Microsoft",
+      "valor": 5.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "Livro8.jpg"
+      "imagem": "mousepad.jpg"
     },
     {
       "id": 9,
-      "nome": "Refactoring TypeScript",
+      "nome": "Go Pro 8",
       "valor": 300.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "Livro9.jpg"
+      "imagem": "gopro.jpg"
     }
   ],
   "posts": [

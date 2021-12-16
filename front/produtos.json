@@ -2,7 +2,7 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Typescript - gerando o javascript do futuro",
+      "nome": "Livro Typescript",
       "valor": 15.00,
       "promocao": false,
       "valorPromo": 0,
